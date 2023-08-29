@@ -57,6 +57,21 @@
 	body_parts_covered = CHEST|GROIN|ARMS|LEGS
 	can_adjust = FALSE
 
+/obj/item/clothing/under/costume/captainweb
+	name = "arachnid pirate captain suit"
+	desc = "A replica of the legendary outfit worn by the famous Arachnid space pirate \"Captain Web\" before his execution in 2557. Wear it along jackboots, black gloves and the mantle!"
+	icon = 'monkestation/icons/obj/clothing/uniforms.dmi'
+	worn_icon = 'monkestation/icons/mob/clothing/uniform.dmi'
+	icon_state = "captainweb"
+	body_parts_covered = CHEST|GROIN|ARMS|LEGS
+	can_adjust = FALSE
+
+/obj/item/clothing/under/costume/captainweb/authentic //Slightly armored variant of the suit, if someone wants to add it as space ruin loot or something.
+	name = "Captain Web's uniform"
+	desc = "The REAL outfit worn by the famous Arachnid \"Captain Web\". Made out of durathread which provides slight armor to it's owner."
+	armor_type = /datum/armor/misc_durathread
+	resistance_flags = FIRE_PROOF | ACID_PROOF
+
 /*
 *	LUNAR AND JAPANESE CLOTHES
 */

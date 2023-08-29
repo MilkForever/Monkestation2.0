@@ -236,6 +236,10 @@ GLOBAL_LIST_INIT(store_miscunders, generate_store_items(/datum/store_item/under/
 	name = "Tragic Mime Suit"
 	item_path = /obj/item/clothing/under/costume/tragic
 
+/datum/store_item/under/miscellaneous/captainweb
+	name = "Arachnid Pirate Captain Suit"
+	item_path = /obj/item/clothing/under/costume/captainweb
+
 /*
 *	FORMAL UNDERSUITS
 */

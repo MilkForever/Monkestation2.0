@@ -140,6 +140,10 @@ GLOBAL_LIST_INIT(loadout_necks, generate_loadout_items(/datum/loadout_item/neck)
 	name = "Poly cloak"
 	item_path = /obj/item/clothing/neck/polycloak
 
+/datum/loadout_item/neck/mantle
+	name = "Black and Silver Mantle"
+	item_path = /obj/item/clothing/neck/mantle
+
 /*
 *	DONATOR
 */

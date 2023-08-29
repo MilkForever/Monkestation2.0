@@ -58,6 +58,8 @@
 				/obj/item/clothing/glasses/eyepatch = 1,
 				/obj/item/clothing/glasses/eyepatch/medical = 1,
 				/obj/item/clothing/under/costume/gi = 1,
+				/obj/item/clothing/under/costume/captainweb = 2, //Monkestation Addition
+				/obj/item/clothing/neck/mantle = 2, //Monkestation Addition
 			),
 		),
 		list(

@@ -41,3 +41,15 @@
 	worn_icon = 'monkestation/icons/mob/clothing/neck.dmi'
 	icon_state = "beecloak"
 	worn_icon_state = "beecloak"
+
+/obj/item/clothing/neck/mantle
+	name = "\improper Black and Silver Mantle"
+	desc = "A fancy one-shoulder mantle. Part of Captain Web's outfit."
+	icon = 'monkestation/icons/obj/clothing/necks.dmi'
+	worn_icon = 'monkestation/icons/mob/clothing/neck.dmi'
+	icon_state = "mantle"
+	worn_icon_state = "mantle"
+
+/obj/item/clothing/neck/mantle/Initialize(mapload)
+	. = ..()
+	AddComponent(/datum/component/toggle_icon)
